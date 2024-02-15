@@ -21,10 +21,12 @@ To quickly test this extension, the `build` folder can uploaded as is as a Chrom
 <div style="margin:40px; display:flex; gap:20px; justify-content:center; flex-direction: row; position: relative; overflow-y: auto;">
     <img src="images/front-page.png">
     <img src="images/create-wallet.png">
-    <img src="images/recover-wallet.png">
 </div>
-<div style="margin:10px; display:flex; gap:20px; justify-content:center; flex-direction: row; position: relative; overflow-y: auto;">
+<div style="margin:40px; display:flex; gap:20px; justify-content:center; flex-direction: row; position: relative; overflow-y: auto;">    
+    <img src="images/recover-wallet.png">
     <img src="images/view-tokens.png">
+</div>
+<div style="margin:40px; display:flex; gap:20px; justify-content:center; flex-direction: row; position: relative; overflow-y: auto;">    
     <img src="images/view-nfts.png">
     <img src="images/send-tokens.png">
 </div>
