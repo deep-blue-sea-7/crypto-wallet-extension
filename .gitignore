@@ -1,3 +1,5 @@
 .DS_Store
 /backend/node_modules
 /allwallet/node_modules
+/backend/package-lock.json
+/allwallet/node_modules/package-lock.json
