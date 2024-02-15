@@ -4,7 +4,7 @@
 
 A crypto wallet web extension that allows a user to create a wallet or connect to an existing wallet, see all their tokens and NFTs, and transfer them to other addresses.
 
-It does not implement account/password management but instead uses the seed phrase to open an account.
+It does not implement account/password management but instead uses the seed phrase to open any account.
 
 This repo uses Moralis as the Crypto data provider. The app/extension retrieves the following data using Moralis endpoints:
 
@@ -16,7 +16,7 @@ The Ethers library is used to send tokens.
 
 Along with React, this uses Ant Design which makes creating tabs very simple, where a user can switch between, the Tokesn, NFTs, and Crypto transfers on the same wallet screen.
 
-To quickly test this extension, the `build` folder can uploaded as is as a Chrome Extension. More information in the next section.
+To quickly test this extension, the `build` folder can be uploaded as is, as a Chrome Extension. More information in the next section.
 
 <div style="margin:40px; display:flex; gap:20px; justify-content:center; flex-direction: row; position: relative; overflow-y: auto;">
     <img src="images/front-page.png">
@@ -44,8 +44,8 @@ Frontend:
     Ethers 6.3.0
 
 Backend:
-    Express
-    Moralis
+    Express 4.18.2
+    Moralis 2.18.2
 ```
 
 ### Deployment Instructions
