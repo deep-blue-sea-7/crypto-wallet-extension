@@ -1,0 +1,16 @@
+{
+  "name": "AllWallet",
+  "version": "1.0.0",
+  "description": "Crypto Wallet Extension",
+  "icons": {
+    "48": "allwallet-logo.png"
+  },
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Wallet"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

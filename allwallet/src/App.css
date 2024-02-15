@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+  width: 340px;
+  height: 600px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 32, 32);
+}
+
+.frontPageLogo {
+  width: 30%;
+}
+
+.frontPageButton {
+  width: 90%;
+  margin-top: 20px;
+  background-color: rgb(31, 131, 162);
+  color: #dbddde;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+.frontPageButton:hover { 
+  background-color: rgb(74, 177, 208) !important;
+  color: rgb(224, 227, 225) !important;
+}
+
+.frontPageButton:disabled { 
+  background-color: rgb(74, 177, 208, 1) !important;
+  color: rgb(224, 227, 225) !important;
+}
+
+.frontPageButton.secondaryButton {
+  background-color: rgb(26, 177, 177);
+}
+
+.frontPageButton.secondaryButton:hover { 
+  background-color: rgb(84, 212, 212) !important;
+  color: rgb(224, 227, 225) !important;
+}
+
+.frontPageBottom {
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+
+.frontPageBottom:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: rgb(46, 46, 46);
+}
+
+.h4 {
+  color: #dbddde;
+  ;
+  padding-bottom: 50px;
+}
+
+a {
+  color: #1f83a2;
+}
+a:visited {
+  color: rgb(24, 94, 159);
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(65, 66, 66);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.headerLogo {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+.ant-select-selector, .ant-select-arrow, .ant-select-selection-item {
+  background-color: rgb(27, 29, 27) !important;
+  color: rgb(222, 225, 222) !important;
+  border: none !important;
+}
+
+.content {
+  color: #dbddde;
+  text-align: center;
+  width: 350px;
+  height: 520px;
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mnemonic {
+  color: #dfedf1;
+  background: #57d0c3;
+  /* border: 1px solid #ffe58f; */
+  padding: 7px;
+  text-align: justify;
+  width: 310px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.seedPhraseContainer {
+  width: 310px;
+  min-height: 160px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.walletName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.logoutButton {
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  border-radius: 100px;
+}
+
+.logoutButton:hover {
+  background-color: rgba(0, 0, 0, 0.036);
+  cursor: pointer;
+}
+
+.walletView {
+  width: 350px;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+  color: #dfedf1;
+}
+
+.tokens {
+  color:rgb(222, 225, 222) !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.sendRow {
+  margin-bottom: 10px;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.nftImage {
+  margin-bottom: 10px;
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ant-tabs-tab {
+  font-size: 17px !important;
+  color:rgb(222, 225, 222) !important;
+}
+
+.ant-list .ant-list-item .ant-list-item-meta .ant-list-item-meta-title {
+  color:rgb(222, 225, 222) !important;
+}
+
+.ant-list .ant-list-item .ant-list-item-meta .ant-list-item-meta-description {
+  color:rgb(222, 225, 222) !important;
+}
+
+.ant-tabs-tab:hover {
+  color:rgb(90, 219, 221) !important;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color:rgb(49, 170, 207) !important;
+}
